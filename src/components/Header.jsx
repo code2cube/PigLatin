@@ -2,7 +2,7 @@ function Header() {
     return (
         <div>
             <div className="container-fluid text-center">
-                <h1>Pig Latin Translator</h1>
+                <h1 class="pt-5">Pig Latin Translator</h1>
             </div>
         </div>
     );

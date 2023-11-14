@@ -1,14 +1,43 @@
+:root {
+    --ltt: #DB4105;
+    --mshadow: 5px 5px 6px black;
+}
+
+html {
+    height: 120vh;
+}
+
 body {
-    background-color: skyblue;
-    height: 110vh;
+    /* background-color: skyblue; */
+    height: 120vh;
+    margin: 0;
+    background-image: linear-gradient(#614385, #516395);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: var(--ltt);
+    text-shadow: var(--mshadow);
 }
 
 #eLabel {
     text-decoration: underline;
+    color: var(--ltt);
+    text-shadow: var(--mshadow);
+}
+
+#pLabel {
+    color: var(--ltt);
+    text-shadow: var(--mshadow);
 }
 
 #swap-arrow {
     font-size: 7em;
+    background-color: #DB4105;
+    padding: 1vw;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 #swap-arrow:hover {
@@ -22,4 +51,6 @@ label {
 textarea {
     border: 5px solid black !important;
     border-radius: 10px;
+    resize: none;
+    margin-bottom: 2em;
 }
